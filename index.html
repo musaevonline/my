@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html class="bg-white" lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1">
+    <link rel="stylesheet" href="tachyons.min.css">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: "Montserrat";
+            src: url("Montserrat-Black.woff2") format("woff2");
+            font-weight: 900;
+        }
+        @font-face {
+            font-family: "Montserrat";
+            src: url("Montserrat-Regular.woff2") format("woff2");
+            font-weight: 400;
+        }
+        @font-face {
+            font-family: "Caveat";
+            src: url("Caveat-Bold.woff2") format("woff2");
+            font-weight: 300;
+        }
+
+        .unselectable {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .cursor-default {
+            cursor: default;
+        }
+
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        header {
+            width: 200vw;
+            height: 100vh;
+            background: #576DE4;
+            border-radius: 50%;
+            margin: -40vh 0 0 -10vw;
+            padding: 40vh 0 0 10vw;
+            box-shadow: 5px 0 15px 6px rgba(0, 0, 0, .5);
+        }
+
+        header div {
+            width: 100vw;
+        }
+    </style>
+</head>
+
+<body class="cursor-default bg-white" style="margin-bottom: 300px;">
+    <header class="relative overflow-hidden">
+        <div class="mt3 ml4 flex justify-around" style="
+                width: 150px;
+            ">
+            <a class="grow" href="https://vk.com/greycat9515" target="_blank">
+                <img class="br3" src="vk.svg" style="
+                    width: 36px;
+                ">
+            </a>
+            <a class="grow" href="https://www.instagram.com/greycat9515" target="_blank">
+                <img class="br3" src="instagram.svg" style="
+                    width: 36px;
+                ">
+            </a>
+            <a class="grow" href="https://t.me/gc9515" target="_blank">
+                <img class="br3" src="telegram.svg" style="
+                    width: 36px;
+                ">
+            </a>
+        </div>
+        <div class="flex justify-end-l justify-center">
+            <h1 class="white mr7-l mt6 tc grow unselectable z-1" style="
+                font: 900 min(64px, 9vw) Montserrat;
+                text-shadow: 5px 4px rgba(0, 0, 0, .2);
+            ">
+                Привет ! <br>
+                Я Амир
+            </h1>
+        </div>
+        <img class="absolute mr5-l" src="DSC0798711.png" style="
+            right: 90vw;
+            bottom: -50px;
+            width: 400px;
+        ">
+    </header>
+    <main class="flex flex-column unselectable">
+        <article class="mt5 pa3 pa4-m pa5-ns contain" style="
+            background: url('1.png') no-repeat;
+            width: min(800px, 100%);
+            height: min(900px, 130vw);
+            transform: rotate(12deg);
+            filter: drop-shadow( 5px 0px 10px rgba(0, 0, 0, .6) );
+            font: 600 min(48px, 7vw) Caveat;
+            margin-left: 8vw;
+        ">
+            <h2 class="mv0 grow" style="
+            font-size: 1.3em;
+            margin-left: 15%;
+            ">
+                Мне 19
+            </h2>
+            <p class="mt3 mb0 grow">
+                На данный момент обучаюсь <br>
+                на 3 курсе столичного <br>
+                университета
+            </p>
+            <p class="mt4 mb0 grow">
+                Увлекаюсь созданием <br>
+                крутых, современных <br>
+                сайтов. Как этот, <br>
+                например :)
+            </p>
+        </article>
+        <article class="pa3 pa4-m pa5-ns self-end contain" style="
+            background: url('2.png') no-repeat;
+            width: min(700px, 100%);
+            height: min(800px, 110vw);
+            transform: rotate(-3deg);
+            filter: drop-shadow( 5px 0px 10px rgba(0, 0, 0, .6) );
+            margin-right: -5vw;
+            font: 600 min(48px, 7vw) Caveat;
+        ">
+            <p>
+            <div class="grow">Люблю кататься на скейте</div>
+            <div class="grow">И на сноуборде</div>
+            <div class="grow">И вообще на всех <span class="underline">досках</span>...</div>
+            <div class="grow">Мечтаю путешествовать!</div>
+            <div class="grow">Хочу увидеть быт различных <br>
+                народов мира</div>
+            <div class="strike grow">Хочу стать космонавтом!</div>
+
+            </p>
+        </article>
+        <article class="mt6 pa3 pa4-m pa5-ns self-center contain" style="
+            background: url('3.png') no-repeat;
+            width: min(700px, 100%);
+            height: min(800px, 110vw);
+            transform: rotate(6deg);
+            filter: drop-shadow( 5px 0px 10px rgba(0, 0, 0, .6) );
+            font: 600 min(48px, 7vw) Caveat;
+        ">
+            <p class="grow">
+                Можно еще много чего расписать,
+                но лучше, если я сделаю это лично
+                при встрече :)
+            </p>
+            <h1 class="tc grow" style="font-size: 1.5em;">Всем добра!</h1>
+            <img class="absolute bottom-0" src="marker.png" style="
+                filter: drop-shadow( 5px 0px 1px rgba(0, 0, 0, .5) );
+                transform: rotate(-20deg);
+                height: 65%;
+                right: -20vw;
+            ">
+        </article>
+    </main>
+    <footer class="fixed bottom-0 bg-dark-gray flex flex-column items-center" style="
+        width: 200%;
+        height: 600px;
+        z-index: -1;
+        border-radius: 50%;
+        left: -50%;
+        bottom: -300px;
+        padding: 0 50% 300px 50%;
+        box-shadow: inset 0 0 15px 10px rgba(0, 0, 0, .6);
+    ">
+        <div class=" mt4 flex justify-around" style="
+                width: 200px;
+            ">
+            <a class="grow" href="https://vk.com/greycat9515" target="_blank">
+                <img class="br3" src="vk.svg" style="
+                    width: 36px;
+                ">
+            </a>
+            <a class="grow" href="https://www.instagram.com/greycat9515" target="_blank">
+                <img class="br3" src="instagram.svg" style="
+                    width: 36px;
+                ">
+            </a>
+            <a class="grow" href="https://t.me/gc9515" target="_blank">
+                <img class="br3" src="telegram.svg" style="
+                    width: 36px;
+                ">
+            </a>
+            <a class="grow" href="https://github.com/greycat0" target="_blank">
+                <img class="br3" src="github.svg" style="
+                    width: 36px;
+                ">
+            </a>
+        </div>
+        <a class="mt3 dim no-underline pointer" href="mailto:greycat9515@gmail.com" style="
+            color: #6AA6FF;
+            font: 400 18px Montserrat;
+        ">
+            greycat9515@gmail.com
+        </a>
+        <p class="tc mt-auto" style="
+            color: #595959;
+            margin-top: auto;
+            font: 400 16px Montserrat;
+        ">
+            Made with <span class="red" style="font-size: 1.5em;">♥</span> <br>
+            © 2020 All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
