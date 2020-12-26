@@ -119,7 +119,7 @@
             font-size: 1.3em;
             margin-left: 15%;
             ">
-                Мне 19
+                Мне <span id="age"><span>
             </h2>
             <p class="mt3 mb0 grow">
                 На данный момент обучаюсь <br>
@@ -283,6 +283,9 @@
             © 2020 All rights reserved.
         </p>
     </footer>
+    <script>
+        document.querySelector('#age').innerHTML = Math.floor((new Date() - new Date(978739200000)) / 31536000000)
+    </script>
 </body>
 
 </html>
