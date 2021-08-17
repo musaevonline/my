@@ -9,8 +9,8 @@ $(document).ready(function() {
     setup_dense();
 
     $(window).load(function() {
-        $(".js-preloader").fadeOut(800, function() {
-            $(".js-main-container").fadeIn(800);
+        $(".js-preloader").fadeOut(200, function() {
+            $(".js-main-container").fadeIn(30);
 
             setup_scrollreveal();
             setup_progress_bar_animation();
@@ -84,8 +84,8 @@ function setup_scrollreveal()
             mobile: false
         };
         var header_config = $.extend(false, default_config, {
-            duration: 1200,
-            delay: 700
+            duration: 1000,
+            delay: 100
         });
         var footer_config = $.extend(false, default_config, {
             duration: 1500,
@@ -93,7 +93,7 @@ function setup_scrollreveal()
             viewOffset: {top: 0, right: 0, bottom: 100, left: 0}
         });
 
-        var default_delay = 175;
+        var default_delay = 30;
 
         sr.reveal('.a-header', header_config, default_delay);
         sr.reveal('.a-footer', footer_config, default_delay);
