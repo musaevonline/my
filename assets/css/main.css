@@ -1923,7 +1923,7 @@ img[height] {
 
 @media (min-width: 760px) {
     .o-section__header {
-        padding: 3.15rem 3.5rem 1.4rem;
+        padding: 3.15rem 1.5rem 1.4rem;
     }
 
     .o-section--header .o-section__header {
@@ -1980,7 +1980,7 @@ img[height] {
 
 @media (min-width: 1200px) {
     .o-section__header {
-        padding: 4.375rem 5.25rem 1.6625rem;
+        padding: 4.375rem 1.25rem 1.6625rem;
     }
 
     .o-section__content {
@@ -2228,19 +2228,7 @@ img[height] {
 
 .c-avatar__img {
     border-radius: 50%;
-    width: 11rem;
-}
-
-@media (min-width: 760px) {
-    .c-avatar__img {
-        width: 14rem;
-    }
-}
-
-@media (min-width: 1200px) {
-    .c-avatar__img {
-        width: 100%;
-    }
+    width: 22rem;
 }
 
 .c-intro p {
