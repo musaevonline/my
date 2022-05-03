@@ -2499,6 +2499,9 @@ img[height] {
     .u-show-lg {
         display: none !important;
     }
+    #gazer {
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -2509,4 +2512,99 @@ img[height] {
 
 .u-show-xl {
     display: none !important;
+}
+
+#gazer {
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden; 
+    position: fixed; 
+    border-radius: 50%; 
+    z-index: 999; 
+    bottom: 10px; 
+    left: 10px;
+    box-shadow: 0 0 10px 10px #0001;
+    border: 1px solid #0003;
+}
+
+.gazer-sprite {
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(../images/header/gazer.jpeg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    top: -30px;
+}
+
+.gazer-sprite._1_jpg {
+    background-position: 0 0;
+    width: 150px;
+    height: 200px;
+}
+
+.gazer-sprite._2_jpg {
+    background-position: 0 -200px;
+    width: 150px;
+    height: 200px;
+}
+
+.gazer-sprite._3_jpg {
+    background-position: 0 -400px;
+    width: 150px;
+    height: 200px;
+}
+
+.gazer-sprite._4_jpg {
+    background-position: 0 -600px;
+    width: 150px;
+    height: 200px;
+}
+
+.gazer-sprite._5_jpg {
+    background-position: 0 -800px;
+    width: 150px;
+    height: 200px;
+}
+
+.gazer-sprite._6_jpg {
+    background-position: 0 -1000px;
+    width: 150px;
+    height: 200px;
+}
+
+.gazer-sprite._7_jpg {
+    background-position: 0 -1200px;
+    width: 150px;
+    height: 200px;
+}
+
+.gazer-sprite._8_jpg {
+    background-position: 0 -1400px;
+    width: 150px;
+    height: 200px;
+}
+
+.gazer-sprite._9_jpg {
+    background-position: 0 -1600px;
+    width: 150px;
+    height: 200px;
+}
+
+.gazer-sprite._10_jpg {
+    background-position: 0 -1800px;
+    width: 150px;
+    height: 200px;
+}
+
+.gazer-sprite._11_jpg {
+    background-position: 0 -2000px;
+    width: 150px;
+    height: 200px;
+}
+
+.gazer-sprite._12_jpg {
+    background-position: 0 -2200px;
+    width: 150px;
+    height: 200px;
 }
