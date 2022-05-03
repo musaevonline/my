@@ -18,7 +18,7 @@ $(document).ready(function () {
         const images = document.querySelectorAll('#gazer .gazer-sprite');
         const gazer = document.querySelector('#gazer');
 
-        window.onmousemove = e => {
+        window.addEventListener('mousemove', (e) => {
             try {
                 if (gazer.style.display === 'none') {
                     return
@@ -51,7 +51,7 @@ $(document).ready(function () {
                     nextImg.style.opacity = (val - index * part) / part
                 }
             } catch (e) { }
-        }
+        })
     });
 });
 
