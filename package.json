@@ -1,0 +1,20 @@
+{
+  "name": "my",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker:build": "docker build -t registry.gitlab.com/musaevonline/my --platform linux/amd64 .",
+    "docker:deploy": "docker push registry.gitlab.com/musaevonline/my"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musaevonline/my.git"
+  },
+  "author": "Amir Musaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musaevonline/my/issues"
+  },
+  "homepage": "https://github.com/musaevonline/my#readme"
+}
